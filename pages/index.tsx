@@ -16,15 +16,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="text-lg max-w-[365px]">
+      <div className="text-lg">
         <header>
           <Image src="/logo.png" width={365} height={165} alt="Ussop Ltd. logo" />
         </header>
         <main>
-        <h1 className="mt-3 text-4xl font-bold text-gray-800">
+        <h1 className="mt-3 text-4xl font-bold text-gray-800 max-w-[365px]">
           We&apos;re Ussop Ltd.
         </h1>
-        <p className="mt-5 text-2xl leading-8 text-gray-600 font-medium tracking-tight">
+        <p className="mt-5 text-2xl leading-8 text-gray-600 font-medium tracking-tight max-w-[365px]">
           We analyze your audience and give you developer friendly targeted information.
         </p>
       <div className="mt-5 text-lg prose prose-lg text-gray-500 max-w-[450px] tracking-wide">
